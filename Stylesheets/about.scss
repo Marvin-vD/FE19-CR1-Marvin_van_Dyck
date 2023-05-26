@@ -1,0 +1,30 @@
+@import "navbar";
+
+.content{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2,1fr);
+    margin: 50px 20px;
+    gap: 30px;
+    img{
+        width:100%;
+    }
+    h1{
+        text-align: center;
+    }
+}
+@import "footer";
+@media screen and (width < 650px) {
+    .nav{
+        a{
+            font-size: 60%;
+        }
+    }
+    footer{
+        .footerNav{
+            a{
+                font-size: 60%;
+            }
+        }
+    }
+}

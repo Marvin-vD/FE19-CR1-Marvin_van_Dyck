@@ -1,0 +1,55 @@
+@import "navbar";
+.container{
+    align-content: center;
+    padding: 50px;
+    .hero{
+        margin: 50px, 50px;
+        background-color: #ededed;
+        text-align: center;
+        width:100%;
+        border-radius: 20px;
+        box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+        h1{
+            color:#3a84de;
+            padding: 5px;
+        }
+        p{
+            padding: 5px;
+        }
+        img{
+            width:80%;
+        }
+    }
+    h3{
+        color:#ff4141;
+    }
+    h2{
+        color: #3998A3;
+    }
+    li{
+        padding-top: 5px;
+        padding-bottom: 5bx;
+    }
+    .rating{
+        size: 25px;
+        text-align: center;
+        span{
+            color:#F4B400;
+        }
+    }
+}
+@import "footer";
+@media screen and (width < 650px) {
+    .nav{
+        a{
+            font-size: 60%;
+        }
+    }
+    footer{
+        .footerNav{
+            a{
+                font-size: 60%;
+            }
+        }
+    }
+}
